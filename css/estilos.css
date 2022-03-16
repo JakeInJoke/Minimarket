@@ -1,0 +1,136 @@
+*{
+    margin: 2px;
+}
+html,body{
+    height: 100%;
+}
+header{
+    background-color: rgb(31, 54, 117);
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+header p{
+
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0%;
+}
+header nav{
+    text-align: left;
+    display: inline-block;
+    float: right;
+}
+header ul{
+    list-style: none;/*quita las viñetas a la lista*/
+}
+header li{
+    display: inline-block;/*texto en una sola linea*/
+}
+header li a{
+    color: #fff;
+    text-decoration: none;/*quitar subrrayado del hipervinculo*/
+    background-color: #2698f2;   
+    padding: 8px 14px;
+    border-radius: 4px;/*esquinas redondeadas de los hipervinculos*/
+}
+section{
+    background-color: #b8daff;  
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px;
+}
+footer{
+    background-color: rgb(31, 54, 117);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+
+#perfil p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 100%;/*espacio entre lineas del parrafo*/
+}
+#estudios table{
+    margin: 5px;
+    border-collapse: collapse;
+}
+.titulos /*clase : la misma apariencia en variso puntos de nuestra pagina*/
+{
+    text-align: center;
+    color: #2698f2;
+    padding: 5px 5px;    
+    border-bottom: 1px solid #999;
+}
+.vinculo{
+    text-decoration: none;
+    color: #2608f2;
+    text-align: right;
+}
+/*form{
+    margin: 5px 10px;
+    line-height: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    width: 600px;
+}*/
+input[type=text], input[type=email], textArea, select{
+    width: 350px;
+    border-radius: 3px;
+    padding: 3px;    
+    color: #0033cc;    
+}
+#principal{
+    background-color: rgb(87, 174, 245);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+ul{
+    padding: 5px 0px 2px 15px;
+}
+.color-b{
+    color: #1e3042;
+}
+h1{
+    font-family: Century Gothic;
+    margin: 10px 0 10px 0;
+}
+table{
+    color: #1e3042;
+    width: 100%;
+    max-width: 100%
+}
+tbody{
+    text-transform: capitalize;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.gg h6{
+    margin: 0;
+    text-transform: uppercase;
+}
+.gg{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.pr{
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0%;
+    color: #fff;
+    text-decoration: none;
+}
+.pr:hover{
+    color:#fff;
+}

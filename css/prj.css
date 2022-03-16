@@ -1,0 +1,143 @@
+html,body{
+    height: 100%;
+}
+#navo .active>.nav-link{
+    color: #dc3545 !important;
+}
+
+#navo .nav-link:hover{
+    color: #dc3545 !important;
+}
+.bor-bot{
+    border-bottom: 1px solid white;
+}
+
+.bor-rig{
+    border-right: 1px solid white;
+}
+.bor-lef{
+    border-left: 1px solid white;
+}
+.color-blue{
+    color: #307cf8 !important;
+}
+.all-in-m-10 svg{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #c2c4c6;
+    cursor: pointer;
+}
+.all-in-m-10 svg:hover{
+    color:white;
+}
+.top-0{
+    top:0;
+}
+.bot-0{
+    bottom: 0;
+}
+.left-0{
+    left: 0;
+}
+.rigth-0{
+    right: 0;
+}
+.tl-sub{
+    font-size: 50px !important;
+}
+.ver-aqui-banner{
+    position: absolute;
+    top: 37%;
+    left: 21.5%;
+}
+.bor-wi{
+    border-width: 5px !important;
+    border-radius: 0;
+}
+.bor-wi img{
+    filter: grayscale(100%);
+}
+.opac{
+    background-color: #3863b4;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.opac-2{
+    background-color: #424750;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+.bg-bloo{
+    background: #3863b4 !important;
+}
+.bg-wark{
+    background: #424750 !important;
+}
+.v-al-middle{
+    vertical-align: middle;
+}
+.tpd th,.tpd td{
+    padding: 0 10px 10px 0;
+}
+
+.td-under{
+    text-decoration: underline;
+}
+.pl-15p{
+    padding-left: 15px !important;
+}
+*{
+    font-family: 'Inter', sans-serif !important;
+}
+
+.ver-aqui-centrado{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1
+}
+.models:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, #5D6D7E 100%);
+}
+.z4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width: 80%;
+    background: #000000;
+}
+.secz4{
+    height: 178px !important;
+}
+.ss hr{
+    margin: 5px 0 5px 0;
+    background: white;
+    height: 2px;
+    width: 80%;
+}
+.title{
+    background: #2452c7;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
